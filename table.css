@@ -1,0 +1,85 @@
+body{
+    background-image: url("./img/icbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    display: flex;
+}
+
+
+.header{background-color:rgba(255, 218, 224, 0.518);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin-right: 700px;
+    color: white;;
+}
+
+.logo{
+    width: 150px;
+}
+.table{
+    width: 1000px;
+    color: white;
+    border: 1px solid rgb(68, 255, 149);
+    border-collapse: collapse;
+    background-color: #fb6b9d39;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+tr th{
+    border: 1px solid pink;
+    border-collapse: collapse;
+    background-color: rgb(255, 218, 224);
+    height: 30px;
+}
+
+.footer{
+    background-color:  rgba(255, 218, 224, 0.548);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.lang{
+    width: 200px;
+    margin-left: 170px;
+    margin-top: 30%;
+    text-align: left;
+    background-color: rgb(255, 218, 224)
+    ;
+    padding: 5px 10px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 2px 2px rgb(199, 141, 151);
+    /* background-image: url("./img/ll.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+
+
+.photo{
+    width: 100px;
+    margin-top: 6px;
+}
+
+tr td{
+    border: 1px solid pink;
+    border-collapse: collapse;
+    text-align: center;
+}
